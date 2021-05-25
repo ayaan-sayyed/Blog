@@ -168,3 +168,27 @@ a {
     background-color: aqua;
     text-align: center;
 }
+
+#S.S {
+    transition: transform .2s;
+    width: 200px;
+}
+
+#M.T {
+    width: 200px;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+#MyInspiration {
+    background-color:coral;
+}
+
+#Cricket {
+    background-color: chartreuse;
+}
+
+#MyApps {
+    background-color: gold;
+}
