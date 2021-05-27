@@ -4,97 +4,85 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> My Personal Website</title>
+    <title> Sir Tim Berners-Lee</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Cinzel+Decorative:wght@900&display=swap" rel="stylesheet">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-    <ul class="menu">
+    <center>
+        <ul class="menu">
 
-        <li class="links"><a href="#About">About</a></li>
-        <li class="links"><a href="#MyPhotos">My Photos</a></li>
-        <li class="links"><a href="#Cricket">Cricket</a></li>
-        <li class="links"><a href="#MyApps">My Websites</a></li>
-        <li class="links"><a href="#MyInspiration">My Inspiration</a></li>
-        <li class="links">Contacts</li>
-    </ul>
+            <li class="links"><a href="#welcome">Home</a></li>
+            <li class="links"><a href="#videos">My Videos</a></li>
+            <li class="links"><a href="#work">Work</a></li>
+            <li class="links"><a href="#writings">Writings</a></li>
+            <li class="links"><a href="#contacts">Contacts</a></li>
+        </ul>
+    </center>
 
     <section id="welcome" class="parallax-container">
         <div class="parallax-inner">
-            <img src="https://www.freevector.com/uploads/vector/preview/30609/Cricket_Logo_vector_10.jpg" class="profile">
-            <h1> My Favourite Hobby is <br> <span id="name">Cricket</span></h1>
-            <h3> Cricket is my favourite sport. I love it very much. I will work hard to become a cricketer. I love the quote said by M.S Dhoni, a very famous cricketer. He says "You don't play for the crowd, you play for the country". I want to be a Batting All-Rounder. Includind Cricket I have four more hobbies that is- Football,Badminton,Coding and listening to Music.</h3>
-            <h4>I WILL ALSO TELL YOU MY FAVOURITE CHARACTER, IT IS FROM AVENGERS.</h4>
-            <img id="Avengers" src="https://gumlet.assettype.com/bloombergquint%2F2019-04%2F4c894d41-181f-4c8c-8630-4604a6d51d05%2Favengers_infinity_war_and_endgame_poster_w7_1600x900.jpg?rect=0%2C0%2C1250%2C900&auto=format%2Ccompress&w=480&dpr=2.6">
-            <button onclick="my()"> MY FAVOURITE CHARACTER </button>
+            <img src="download.jpg" class="profile">
+            <h1> I Am <br> <span id="name">Tim Berners-Lee</span></h1>
+            <h2> I am the founder of www: World Wide Web</h2>
         </div>
     </section>
 
-    <section id="About">
-        <h1>About</h1>
+
+    <secion id="bio">
+        <h1> Hi!</h1>
+        <div class="line"></div>
+        <p>Tim Berners-Lee is a software engineer who invented the Internet (or the World Wide Web) in 1989 while at CERN, the European Particle Physics Laboratory. He is director of the World Wide Web Consortium that he founded and a Professor in the Computer Science Department at the University of Oxford.
+            In 2001 he became a Fellow of the Royal Society and in 2004 he was knighted.<br /><br />In 1994 Berners-Lee founded the World Wide Web Consortium (W3C) at the Laboratory of Computer Science (LCS) at the Massachusetts Institute of Technology in Boston. It was made up of companies that wanted to work together to create Web standards and also improve the Web. It was quickly agreed that the technology should be free of royalties and patents. Berners-Lee has served as director of this W3C since it was founded.
+            In 1995 Microsoft produced the first version of Internet Explorer and this commercial browser created enormous growth in websites and web users. The Web was first used for e-commerce in 1997.</p>
+    </secion>
+
+    <section id="videos">
+        <h1>Videos</h1>
         <div class="line"></div>
         <br>
-        <img id="Ayaan" src="AYAAN.jpg">
+        <iframe width="900" height="500" src="https://www.youtube.com/embed/DmEEyr4et48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <br>
         <br>
-        <h2>My name is Ayaan Firoz Sayyed. I am 12 years old. My Favourite Sport is Cricket and I love Coding. I have learnt creating apps from Whitehat.Jr. In my Personal Website you can see my photos, my hobbies, apps created by me and many more things!</h2>
+        <iframe width="900" height="500" src="https://www.youtube.com/embed/XYf1dL6IAFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
-    <section id="MyPhotos">
-        <h1>MY PHOTOS</h1>
-        <img id="img2" src="20171019_202526.jpg">
-        <img id="img3" src="20191104_114434.jpg">
-        <img id="Image" src="20191103_162924.jpg">
-        <img id="img4" src="20191103_163457.jpg">
-        <img id="img6" src="20191104_111227.jpg">
-        <img id="img5" src="20191104_125132.jpg">
-    </section>
-
-
-    <section id="Cricket">
-        <h1>CRICKET</h1>
-        <iframe width="900" height="1000" src="https://en.wikipedia.org/wiki/Cricket" frameborder="0"></iframe>
-    </section>
-
-    <section id="MyApps">
-        <h1>MY WEBSITES</h1>
-        <br>
-        <h3>I will show you apps created by me</h3>
-        <a class="appno.1" href="https://codepen.io/ThunderAyaan/pen/XWpozgE" target="_blank">“THE MONKEY WALK</a>
-        <br>
-        <br>
-        <br>
-        <a class="appno.2" href="https://codepen.io/ThunderAyaan/pen/yLgjMWj" target="_blank">“Thomas Alva Edison</a>
-        <br>
-        <br>
-        <br>
-        <a class="appno.3" href="https://codepen.io/ThunderAyaan/pen/NWdmBQP" target="_blank">“Web Calculator</a>
-        <br>
-        <br>
-        <br>
-        <a class="appno.4" href="https://codepen.io/ThunderAyaan/pen/qBrEGjj" target="_blank">“Seven Wonders of the World</a>
-        <br>
-        <br>
-        <br>
-        <a class="appno.5" href="https://codepen.io/ThunderAyaan/pen/abpgvJv" target="_blank">“Farming Calculator</a>
-    </section>
-    <section id="MyInspiration">
-        <h1>My Inspiration</h1>
+    <section id="work">
+        <h1>Work</h1>
         <div class="line"></div>
-        <span>
-            <a href="https://en.wikipedia.org/wiki/Sonu_Sood" target="_blank">
-                <h2>Sonu Sood</h2>
-                <img id="S.S" src="sonu-sood.jpg">
-            </a>
-        </span>
-        <span>
-            <a href="https://en.wikipedia.org/wiki/Mother_Teresa" target="_blank">
-                <h2>Mother Teresa</h2>
-                <img id="M.T" src="Mother-Teresa.jpg">
-            </a>
-        </span>
+        <iframe width="900" height="1000" src="https://en.wikipedia.org/wiki/Tim_Berners-Lee#Career_and_research" frameborder="0"></iframe>
+
     </section>
+    <section id="writings">
+        <h1>Writings</h1>
+        <div class="line"></div>
+        <a class="article" href="https://webfoundation.org/2019/03/web-birthday-30/" target="_blank">30 years on, what’s next #ForTheWeb?</a>
+        <br>
+        <a class="article" href="https://www.vanityfair.com/news/2018/07/the-man-who-created-the-world-wide-web-has-some-regrets" target="_blank">“I WAS DEVASTATED”: TIM BERNERS-LEE, THE MAN WHO CREATED THE WORLD WIDE WEB, HAS SOME REGRETS</a>
+    </section>
+
+    <section id="contacts">
+        <h1>Contacts</h1>\
+        <div class="line"></div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60306.96255130152!2d72.83100672703283!3d19.14337063450238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b745d5b7c4bd%3A0xde2f38d642ffaf23!2sWhiteHatJr%20Mumbai!5e0!3m2!1sen!2sin!4v1622110830463!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="contact_1">
+            <a href="mailto:someone@example.com?Subject=Hello">
+                <i class="fa fa-envelope"></i>&nbsp;&nbsp;<h3>mygmailid@gmail.com</h3>
+            </a>
+            <br>
+            <br>
+            <a href="#">
+                <i class="fa fa-instagram"></i>&nbsp;&nbsp;<h3>myinstagramid</h3>
+            </a>
+
+        </div>
+
+
+    </section>
+</body>
+
+</html>
